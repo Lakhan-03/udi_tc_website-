@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .body1 {
+            height: 100vh;
+            width: 100vw;
+            /* background-color: red; */
+            background-image: url('bg1.jpg');
+            background-color: black;
+        }
+
+        .lines {
+            display: inline;
+            margin: 30px 10px;
+        }
+
+        .line1 {
+            width: 28px;
+            height: 4px;
+            background-color: white;
+            margin: 8% 8%;
+        }
+
+        .line2 {
+            width: 23px;
+            height: 4px;
+            background-color: white;
+            margin: 7% 25%;
+        }
+
+        .line3 {
+            width: 18px;
+            height: 4px;
+            background-color: white;
+            margin: 7% 40%;
+        }
+
+        .line1:hover {}
+
+        .line2:hover {
+            width: 28px;
+            height: 4px;
+            background-color: white;
+            margin: 8% 8%;
+        }
+
+        .line3:hover {
+            width: 28px;
+            height: 4px;
+            background-color: white;
+            margin: 8% 8%;
+        }
+
+        .body2 {
+            height: 100vh;
+            width: 0%;
+            background-color: rgb(41, 16, 41);
+            position: fixed;
+            top: 0;
+            right: 0;
+            /* opacity: 0; */
+            /* visibility: hidden; */
+
+        }
+
+        .logo2 {
+            margin: 40px;
+            height: 50px;
+        }
+
+        .slide1 {
+            color: white;
+            margin: 30px 33px;
+            font-size: 30px;
+            font-weight: normal;
+        }
+
+        .text-desc1 {
+            color: white;
+            margin: 10px 32px;
+            font-size: large;
+            font-weight: lighter;
+        }
+
+        #email {
+            color: white;
+            background-color: rgb(48, 14, 48);
+            padding: 10px;
+            border: 2px solid white;
+            margin: 40px 30px;
+        }
+
+        .subscribe1 {
+            background-color: rgb(202, 80, 80);
+            margin: 10px 30px;
+            padding: 12px;
+            border-radius: 20px;
+        }
+
+        .following {
+            color: white;
+            margin: 15px 30px;
+            font-size: 19px;
+        }
+
+        .icons1 {
+            margin: 10px 30px;
+        }
+
+        i {
+            padding: 3px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="mainv" style="display: flex;">
+        <div class="body1">
+            <div class="nav1" style="display: flex; justify-content: space-between;pos">
+                <div class="nav1 logo1">
+                    <img src="logo-koral-light.png" style="padding: 30px;">
+                </div>
+                <div class="nav1 nav_act1">
+                    <ul type="none" style="display: flex;">
+                        <li style="padding: 30px 5px; font-weight: bold; font-size: large;"><a href="#"
+                                style="text-decoration: none;border-bottom: 3px solid #fa7268; color: #fa7268 ;">HOME</a>
+                        </li>
+                        <li style="padding: 30px 5px; font-weight: bold; font-size: large;"><a href="#"
+                                style="text-decoration: none; color: white ;">PAGES</a></li>
+                        <li style="padding: 30px 5px; font-weight: bold; font-size: large;"><a href="#"
+                                style="text-decoration: none; color: white ;">PORTFOLIOS</a></li>
+                        <li style="padding: 30px 5px; font-weight: bold; font-size: large;"><a href="#"
+                                style="text-decoration: none; color: white ;">HEADERS</a></li>
+                        <li style="padding: 30px 5px; font-weight: bold; font-size: large;"><a href="#"
+                                style="text-decoration: none; color: white ;">ELEMENTS</a></li>
+                        <li style="padding: 30px 5px; font-weight: bold; font-size: large;"><a href="#"
+                                style="text-decoration: none; color: white ;">BLOG</a></li>
+                    </ul>
+                </div>
+                <div class="nav1 figu1">
+                    <div class="lines1">
+                        <ul type="none" style="display: flex;">
+                            <li><i class="fas fa-search" style="color: white; padding: 30px 10px;"></i></li>
+                            <li><i class="fas fa-cart-plus" style="color: white;padding: 30px 10px;"></i></li>
+                            <ul type="none" class="lines">
+                                <li class="line1"></li>
+                                <li class="line2"></li>
+                                <li class="line3"></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body2">
+        <img src="logo-koral-light.png" class="logo2">
+        <h2 class="slide1">Newsletter</h2>
+        <p class="text-desc1">Recieve news, cool free stuff updates and new released products (no spam!)</p>
+        <input type="text" name="email" id="email" placeholder="Enter your email here"><br>
+        <input type="button" value="SUBSCRIBE" class="subscribe1">
+        <div class="following">Follow us on</div>
+        <div class="icons1">
+            <i class="fab fa-facebook" style="background-color: white;"></i>
+            <i class="fab fa-twitter" style="background-color: white;"></i>
+            <i class="fab fa-instagram" style="background-color: white;"></i>
+        </div>
+    </div>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique aspernatur praesentium alias dolore rem dolores
+    nihil sequi labore iste adipisci eum corrupti asperiores maiores dolor delectus quasi animi blanditiis iusto a,
+    reiciendis sapiente enim? Quidem ex, libero beatae magnam repudiandae quas odio amet non, voluptatibus consectetur
+    culpa. Praesentium repudiandae, ullam adipisci quae, eos maiores perferendis eum recusandae ducimus sequi doloribus
+    nam fuga quaerat vel iusto cumque itaque sed. Molestiae distinctio blanditiis saepe consequatur quod natus ipsa nam
+    sunt nostrum, rem voluptatem facere obcaecati expedita esse enim, sapiente corrupti placeat cumque repudiandae dicta
+    debitis nihil laudantium. Necessitatibus veniam vero minus molestiae.
+    <script>
+        const figbutton = document.querySelector('.lines');
+        const body2 = document.querySelector('.body2');
+        const body1 = document.querySelector('.body1');
+        let isOpen = false;
+        figbutton.addEventListener('click', () => {
+            console.log("hello")
+            if (isOpen) {
+                body2.style.minWidth = '24vw';
+                body1.style.width = '75vw';
+                isOpen = false;
+            }
+            else {
+                body2.style.minWidth = '0';
+                body1.style.width = '100vw';
+                isOpen = true;
+            }
+        });
+    </script>
+</body>
+
+</html>
