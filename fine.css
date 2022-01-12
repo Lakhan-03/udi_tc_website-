@@ -527,9 +527,13 @@
     
   }
   */
+
+  /* explore more button css */
   .buttonclass{
     background-color: #fa7268;
-    padding: 10px;
+    padding: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
     border-radius: 22px; 
     font-size: 15px;
    font-weight: bold; 
@@ -538,7 +542,32 @@
     justify-content: center;
      align-items: center; 
      border: 1px solid #f7f7f7;
-
-   
   }
+
+.buttonclass:hover{
+    background-color: #eb1776; 
+    color: white;
+}
+
+/* buy now button css */
+  .buttonclass1{
+    background-color: transparent;
+    padding: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 22px; 
+    font-size: 15px;
+   font-weight: bold; 
+   color:white; 
+        display: inline-flex;
+    justify-content: center;
+     align-items: center; 
+     border: 1px solid #f7f7f7;
+  }
+  
+.buttonclass1:hover{
+    background-color: #eb1776;
+    color: white;
+}
+
   
