@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.carousel-indicators li {
+    width: 1em;
+    height: 1em;
+    margin: 10px;
+}
+
+.carousel-item img {
+    width: 100vw;
+    height: 120vh;
+    filter: brightness(70%);
+}
+
+.but1 {
+    /* background-color: red; */
+    width: 27px;
+    height: 60px;
+    margin-top: 20%;
+}
+
+.circ {
+    background-color: black;
+    opacity: 0.5;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+}
+
+/* navbar */
+.navbar {
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+.left img {
+    /* position: absolute; */
+    /* top: 10px; */
+    /* right: 50px; */
+    height: 50px;
+}
+
+.mid {
+    /* display: block; */
+    position: relative;
+    display: flex;
+    left: 20%;
+    top: 60%;
+}
+
+.right {
+    /* display: block; */
+    display: flex;
+    position: relative;
+    right: -15%;
+    top: 60%;
+}
+
+/* home */
+/* .navhome {
+    background-color: red;
+} */
+
+.home {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    /* background-color: red; */
+    display: block;
+    height: 70px;
+}
+
+.home:hover {
+    color: salmon;
+    text-decoration: none;
+    text-decoration: 2px salmon solid underline;
+    cursor: pointer;
+    display: block;
+}
+
+.homedropdown {
+    display: none;
+    /* display: block; */
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 0.3px;
+    left: 35%;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.homedropdown a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 15px;
+}
+
+.navhome:hover .homedropdown {
+    display: block;
+}
+
+.homedropdown a:hover {
+    color: salmon;
+    transition: all 0.5s;
+    padding: 0px 0px 0px 10px;
+}
+
+/* pages */
+.navpages {
+    /* background-color: red; */
+}
+
+.pages {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    height: 70px;
+    /* background-color: red; */
+}
+
+.pages:hover {
+    color: salmon;
+    text-decoration: none;
+    text-decoration: 2px salmon solid underline;
+    cursor: pointer;
+    display: block;
+}
+
+.pagesdropdown {
+    display: none;
+    /* display: block; */
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 0.1%;
+    left: 39%;
+    opacity: 0.8;
+    transition: all 0.5s;
+    height: 52%;
+    width: 15%;
+}
+
+.pagesdropdown a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 15px;
+}
+
+.navpages:hover .pagesdropdown {
+    display: block;
+}
+
+.pagesdropdown a:hover {
+    color: salmon;
+    transition: all 0.5s;
+    padding: 0px 0px 0px 10px;
+}
+
+/* portfolios */
+.portfolios {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    height: 70px;
+}
+
+.portfolios:hover {
+    color: salmon;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    text-decoration: 2px salmon solid underline;
+    /* transition: all 1s linear; */
+}
+
+.portfoliosdropdown table thead th {
+    color: white;
+    padding: 5px;
+}
+
+.portfoliosdropdown table tbody tr td {
+    color: white;
+    padding: 5px;
+}
+
+.portfoliosdropdown table {
+    margin: 20px;
+}
+
+.portfoliosdropdown {
+    margin: 1% auto;
+    height: 40%;
+    width: 80%;
+    left: 10%;
+    top: 13%;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    display: none;
+}
+
+.portfoliosdropdown table {
+    height: 90%;
+    width: 100%;
+    padding: 4px;
+}
+
+.portfoliosdropdown table thead th {
+    align-items: center;
+}
+
+.portfolios:hover {
+    /* text-decoration: none;
+    border-bottom: 3px solid salmon;
+    color: salmon; */
+}
+
+.navportfolios:hover .portfoliosdropdown {
+    display: block;
+    /* overflow: auto; */
+}
+
+.portfoliosdropdown {
+    /* background-color: red; */
+
+}
+
+.portfoliosdropdown table thead th:hover {
+    color: salmon;
+    padding: 0px 0px 0px 10px;
+}
+
+.portfoliosdropdown table tbody tr td:hover {
+    color: salmon;
+    /* margin: 0px 5px 0px 0px; */
+    padding: 0px 0px 0px 10px;
+}
+
+/* headers */
+.headers {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    height: 70px;
+    /* background-color: red; */
+}
+
+.headers:hover {
+    color: salmon;
+    text-decoration: none;
+    text-decoration: 2px salmon solid underline;
+    cursor: pointer;
+    display: block;
+}
+
+.headersdropdown {
+    display: none;
+    /* display: block; */
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 0.1%;
+    left: 50%;
+    opacity: 0.8;
+    transition: all 0.5s;
+    height: 46%;
+    width: 15%;
+}
+
+.headersdropdown a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 15px;
+}
+
+.navheaders:hover .headersdropdown {
+    display: block;
+}
+
+.headersdropdown a:hover {
+    color: salmon;
+    transition: all 0.5s;
+    padding: 0px 0px 0px 10px;
+}
+
+/* elements */
+.elements {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    height: 70px;
+    /* background-color: red; */
+}
+
+.elements:hover {
+    color: salmon;
+    text-decoration: none;
+    text-decoration: 2px salmon solid underline;
+    cursor: pointer;
+    display: block;
+    /* transition: all 1s linear; */
+}
+
+.elementsdropdown table thead th {
+    color: white;
+    padding: 5px;
+}
+
+.elementsdropdown table tbody tr td {
+    color: white;
+    padding: 5px;
+}
+
+.elementsdropdown table {
+    margin: 20px;
+}
+
+.elementsdropdown {
+    margin: 1% auto;
+    height: 40%;
+    width: 80%;
+    left: 10%;
+    top: 13%;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    display: none;
+}
+
+.elementsdropdown table {
+    height: 90%;
+    width: 100%;
+    padding: 4px;
+}
+
+.elementsdropdown table thead th {
+    align-items: center;
+}
+
+.navelements:hover .elementsdropdown {
+    display: block;
+    /* overflow: auto; */
+}
+
+.elementsdropdown {
+    /* background-color: red; */
+
+}
+
+.elementsdropdown table thead th:hover {
+    color: salmon;
+    padding: 0px 0px 0px 10px;
+}
+
+.elementsdropdown table tbody tr td:hover {
+    color: salmon;
+    /* margin: 0px 5px 0px 0px; */
+    padding: 0px 0px 0px 10px;
+}
+
+/* blog */
+.blog {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    height: 70px;
+    /* background-color: red; */
+}
+
+.blog:hover {
+    color: salmon;
+    text-decoration: none;
+    text-decoration: 2px salmon solid underline;
+    cursor: pointer;
+    display: block;
+}
+
+.blogdropdown {
+    display: none;
+    /* display: block; */
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 0.1%;
+    left: 60%;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.blogdropdown a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 15px;
+}
+
+.navblog:hover .blogdropdown {
+    display: block;
+}
+
+.blogdropdown a:hover {
+    color: salmon;
+    transition: all 0.5s;
+    padding: 0px 0px 0px 10px;
+}
+
+.ele {
+    /* background-color: black; */
+    margin: 6px;
+    position: relative;
+    top: 20px;
+}
+
+/* hello */
+.lines {
+    display: inline;
+    margin: 30px 10px;
+}
+
+.line1 {
+    width: 28px;
+    height: 4px;
+    background-color: white;
+    margin: 8% 8%;
+}
+
+.line2 {
+    width: 23px;
+    height: 4px;
+    background-color: white;
+    margin: 7% 25%;
+}
+
+.line3 {
+    width: 18px;
+    height: 4px;
+    background-color: white;
+    margin: 7% 40%;
+}
+
+.right .lines {
+    /* background-color: red; */
+    padding: 5px;
+    position: relative;
+    top: -5px;
+}
+
+.right .lines:hover .line2 {
+    width: 28px;
+    height: 4px;
+    background-color: white;
+    margin: 8% 8%;
+    transition: all 0.3s linear;
+}
+.right .lines:hover .line3 {
+    width: 28px;
+    height: 4px;
+    background-color: white;
+    margin: 8% 8%;
+    transition: all 0.3s linear;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    color: white;
+    /* font-family: 'Montserrat', sans-serif; */
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+ 
+  
